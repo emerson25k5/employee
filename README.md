@@ -75,17 +75,29 @@ Desenvolvido em Laravel com interface responsiva usando Bootstrap e interativida
 
 ## 📸 Capturas de Tela
 
-> (Adicione abaixo as imagens ou GIFs da aplicação funcionando)
-
 - **📋 Listagem de Funcionários**
-- **➕ Modal de Criação**
-- **🔍 Modal de Visualização**
-- **✏️ Modal de Edição**
-- **🗑️ Modal de Exclusão**
+  ![image](https://github.com/user-attachments/assets/9c747625-d603-4506-a634-db5d4fd497a3)
 
----
+  
+- **➕ Modal de Criação**
+  ![image](https://github.com/user-attachments/assets/00771231-3474-4f54-a3c2-2f6a98fdf655)
+
+  
+- **🔍 Modal de Visualização**
+  ![image](https://github.com/user-attachments/assets/1ae011f0-a544-43bf-b723-05783586c25b)
+  
+
+- **✏️ Modal de Edição**
+![image](https://github.com/user-attachments/assets/471b9e30-cad3-46aa-99aa-56e63d61a000)
+
+
+- **🗑️ Modal de Exclusão**
+  ![image](https://github.com/user-attachments/assets/62280997-cb41-4f87-b01f-c1c7d24a633b)
+
 
 ## 📄 Licença
+
+Emerson Santos (emerson25k5)
 
 Este projeto está sob a licença MIT.  
 Sinta-se à vontade para usar, melhorar e compartilhar.
