@@ -1,7 +1,15 @@
 # Sistema de Gestão de Funcionários
 
-Sistema web para cadastro, listagem, edição, visualização e exclusão de funcionários.  
+Sistema web para cadastro, listagem, edição, visualização e exclusão de funcionários. 
 Desenvolvido em Laravel com interface responsiva usando Bootstrap e interatividade da lista com DataTables.
+
+Decidi utilizar o MySQL pois tenho estou mais familiarizado com o banco. Datatables para interatividade na tabela. Formatação dos dados na view utilizando funções PHP. 
+
+Com mais tempo, alguns dos próximos passos que eu daria seriam:
+- criar sistema de autenticação baseado em roles
+- model cargos
+- tratamento de formulários mais bem elaborado no model
+- sistema de alert utilizando o alert do bootstrap e components
 
 ---
 
@@ -17,9 +25,9 @@ Desenvolvido em Laravel com interface responsiva usando Bootstrap e interativida
 
 ## 🧰 Tecnologias Utilizadas
 
-- PHP 8+
+- PHP 8.4
 - Laravel 10+
-- MySQL ou SQL Server
+- MySQL
 - Bootstrap 5
 - DataTables
 - Composer
