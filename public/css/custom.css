@@ -1,0 +1,188 @@
+/* Custom styles for layout */
+nav {
+    background-color: #3cb5fb;
+    color: white;
+    font-weight: semibold;
+}
+
+nav a.nav-link {
+    color: white;
+}
+
+.nav-link.active {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0.25rem;
+}
+
+footer {
+    background-color: #3cb5fb;
+    flex-shrink: 0;
+}
+
+
+/* Custom button styles */
+a.btn.btn-success,
+button.btn.btn-success {
+    background: linear-gradient(135deg, #3cb5fb, #6cb5df);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 18px;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+}
+
+a.btn.btn-success:hover,
+button.btn.btn-success:hover {
+    background: linear-gradient(135deg, #279de1, #3ea0d8);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 18px;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+}
+
+
+/* Secondary */
+a.btn.btn-secondary,
+button.btn.btn-secondary {
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 18px;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+}
+
+a.btn.btn-secondary:hover,
+button.btn.btn-secondary:hover {
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 18px;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+}
+
+
+/* menu table buttons */
+a.btn.btn-info,
+button.btn.btn-info {
+    background: linear-gradient(135deg, #c3c3c3, #c3c3c3);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 12px;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+}
+
+a.btn.btn-info:hover,
+button.btn.btn-info:hover {
+    background: linear-gradient(135deg, #3cb5fb, #6cb5df);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 12px;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+}
+
+
+
+
+
+/* Custom table styles */
+.table-custom {
+    border-collapse: separate;
+    border-spacing: 0 8px;
+}
+
+.table-custom thead {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.table-custom tbody tr {
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+.table-custom tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.table-custom th,
+.table-custom td {
+    padding: 12px 20px;
+    vertical-align: middle;
+}
+
+button.dataTable {
+    border: 1px solid #000000;
+    padding: 2px 5px;
+}
+
+button.dataTable:hover {
+    border: 1px solid #000000;
+    padding: 2px 5px;
+}
+
+
+/* Estilo geral para todos os botões de paginação do DATATABLE */
+#tabela_info {
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.paginate_button {
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: BLACK;
+    color: white !important;
+    padding: 5px 12px;
+    margin: 5px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo para o botão de paginação ao passar o mouse */
+.paginate_button:hover {
+    background-color: #3cb5fb;
+    border-color: #3cb5fb;
+}
+
+/* Estilo para o botão da página atual */
+.paginate_button.current {
+    background-color: #3cb5fb;
+    border-color: #3cb5fb;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Estilo para botões desativados */
+.paginate_button.disabled {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+/* Estilo para botões ativos */
+.paginate_button {
+    background-color: #3cb5fb9d;
+    opacity: 1;
+}
