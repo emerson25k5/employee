@@ -44,7 +44,8 @@
 
                             <div class="input-group mb-3">
                                 <span class="input-group-text" id="basic-addon-salario">Salário</span>
-                                <input type="number" step="0.01" name="salario" class="form-control" value="{{ $funcionario->salario }}">
+                                <span class="input-group-text" id="basic-addon-salario">R$</span>
+                                <input type="text" name="salario" class="form-control" value="{{ number_format($funcionario->salario, 2, ',', '.') }}">
                             </div>
 
                         </form>
