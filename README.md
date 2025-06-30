@@ -31,8 +31,8 @@ Desenvolvido em Laravel com interface responsiva usando Bootstrap e interativida
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repo.git
-   cd nome-do-repo
+   git clone https://github.com/emerson25k5/employee.git
+   cd employee
    ```
 
 2. Instale as dependências:
