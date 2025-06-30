@@ -12,7 +12,6 @@ Desenvolvido em Laravel com interface responsiva usando Bootstrap e interativida
 - Exclusão com confirmação em modal
 - Visualização detalhada de dados em modal
 - Filtro em tempo real com DataTables
-- Validação de dados com mensagens de erro
 
 ---
 
