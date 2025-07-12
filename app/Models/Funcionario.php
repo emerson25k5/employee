@@ -10,14 +10,9 @@ class Funcionario extends Model
 {
      use HasFactory;
 
-    public $incrementing = false;
-
-    protected $keyType = 'string';
-
     protected $table = 'funcionarios';
 
     protected $fillable = [
-        'id',
         'nome',
         'email',
         'cpf',
@@ -35,10 +30,9 @@ class Funcionario extends Model
     {
         parent::boot();
 
-        static::creating(function ($model) {
-            if (empty($model->id)) {
-                $model->id = (string) Str::uuid();
-            }
+        // Automatically convert 'nome' to uppercase before saving
+        static::creating(function ($funcionario) {
+            $funcionario->nome = mb_strtoupper($funcionario->nome);
         });
     }
 }

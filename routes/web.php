@@ -5,4 +5,6 @@ use App\Http\Controllers\FuncionarioController;
 
 Route::resource('funcionario', FuncionarioController::class);
 
-Route::get('/', [FuncionarioController::class, 'index']);
+Route::get('/', function () {
+    return view('home.home');
+})->name('home');
