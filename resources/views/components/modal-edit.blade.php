@@ -13,7 +13,7 @@
                 <div class="card">
                     <div class="card-body">
 
-                        <form id="edit-funcionario-{{ $funcionario->id }}" method="POST" action="{{ route('funcionarios.update', $funcionario->id) }}">
+                        <form id="edit-funcionario-{{ $funcionario->id }}" method="POST" action="{{ route('funcionario.update', $funcionario->id) }}">
                             @csrf
                             @method('PUT')
 

@@ -10,7 +10,7 @@
 
             <!-- Modal Body -->
             <div class="modal-body">
-                <form id="confirma-exclusao-{{ $funcionario->id }}" method="POST" action="{{ route('funcionarios.destroy', $funcionario->id) }}">
+                <form id="confirma-exclusao-{{ $funcionario->id }}" method="POST" action="{{ route('funcionario.destroy', $funcionario->id) }}">
                     @csrf
                     @method('DELETE')
                     <p>Tem certeza que deseja excluir o funcionário <strong>{{ $funcionario->nome }}</strong>?</p>
