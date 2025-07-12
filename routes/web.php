@@ -3,8 +3,6 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FuncionarioController;
 
-Route::resource('funcionarios', FuncionarioController::class);
+Route::resource('funcionario', FuncionarioController::class);
 
-Route::get('/', function () {
-    return view('funcionario.index');
-});
+Route::get('/', [FuncionarioController::class, 'index']);

@@ -30,7 +30,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link {{ Request::is('funcionarios*') ? 'active' : '' }}" href="{{ route('funcionarios.index') }}"><i class="bi bi-people"></i> Funcionários</a>
+                        <a class="nav-link {{ Request::is('funcionarios*') ? 'active' : '' }}" href="{{ route('funcionario.index') }}"><i class="bi bi-people"></i> Funcionários</a>
                     </li>                                  
                 </ul>
             </div>

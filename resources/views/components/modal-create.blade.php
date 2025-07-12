@@ -13,7 +13,7 @@
                 <div class="card">
                     <div class="card-body">
 
-                        <form id="create-funcionario" method="POST" action="{{ route('funcionarios.store') }}">
+                        <form id="create-funcionario" method="POST" action="{{ route('funcionario.store') }}">
                             @csrf
 
                             <div class="input-group mb-3">

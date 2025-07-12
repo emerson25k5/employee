@@ -9,13 +9,13 @@ class FuncionarioController extends Controller
 {
     public function index()
     {
-        $funcionarios = Funcionario::orderBy('nome')->get();
-        return view('funcionarios.index', compact('funcionarios'));
+        $funcionarios = Funcionario::all();
+        return view('funcionario.index', compact('funcionarios'));
     }
 
     public function create()
     {
-        return view('funcionarios.create');
+        return view('funcionario.create');
     }
 
     public function store(Request $request)
@@ -31,7 +31,7 @@ class FuncionarioController extends Controller
 
         Funcionario::create($request->all());
 
-        return redirect()->route('funcionarios.index')->with('success', 'Funcionário criado com sucesso.');
+        return redirect()->route('funcionario.index')->with('success', 'Funcionário criado com sucesso.');
     }
 
     public function update(Request $request, Funcionario $funcionario)
@@ -47,13 +47,13 @@ class FuncionarioController extends Controller
 
         $funcionario->update($request->all());
 
-        return redirect()->route('funcionarios.index')->with('success', 'Funcionário atualizado com sucesso.');
+        return redirect()->route('funcionario.index')->with('success', 'Funcionário atualizado com sucesso.');
     }
 
     public function destroy(Funcionario $funcionario)
     {
         $funcionario->delete();
 
-        return redirect()->route('funcionarios.index')->with('success', 'Funcionário excluído com sucesso.');
+        return redirect()->route('funcionario.index')->with('success', 'Funcionário excluído com sucesso.');
     }
 }
